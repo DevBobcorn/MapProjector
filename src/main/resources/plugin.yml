@@ -1,0 +1,16 @@
+name: MapProjector
+version: 1.0
+main: com.devbobcorn.mapprojector.PluginMain
+
+author: [DevBobcorn]
+
+depend: [ProtocolLib]
+
+commands:
+  projmap:
+    description: Start updating a range of maps
+    usage: /<command> <mapIdStart> <mapCountX> <mapCountY>
+
+  projstop:
+    description: Stop updating all maps
+    usage: /<command>
